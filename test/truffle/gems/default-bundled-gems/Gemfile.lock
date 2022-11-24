@@ -5,7 +5,7 @@ GEM
     base64 (0.1.0)
     benchmark (0.1.1)
     bigdecimal (3.0.0)
-    cgi (0.2.0)
+    cgi (0.3.1)
     csv (3.1.9)
     date (3.1.0)
     dbm (1.1.0)
@@ -16,7 +16,6 @@ GEM
     drb (2.0.4)
     english (0.7.1)
     erb (2.2.0)
-      cgi
     etc (1.2.0)
     fcntl (1.0.0)
     fiddle (1.0.6)
@@ -51,18 +50,11 @@ GEM
       net-protocol
       timeout
     net-protocol (0.1.0)
-      io-wait
-      timeout
     net-smtp (0.2.1)
-      digest
       net-protocol
-      timeout
     nkf (0.1.0)
     observer (0.1.1)
     open-uri (0.1.0)
-      stringio
-      time
-      uri
     open3 (0.1.1)
     openssl (2.2.0)
     optparse (0.1.0)
@@ -70,7 +62,6 @@ GEM
     pathname (0.1.0)
     power_assert (1.2.0)
     pp (0.1.0)
-      prettyprint
     prettyprint (0.1.0)
     prime (0.1.2)
       forwardable
@@ -91,9 +82,6 @@ GEM
       resolv
     rexml (3.2.5)
     rinda (0.1.0)
-      drb
-      forwardable
-      ipaddr
     rss (0.2.9)
       rexml
     securerandom (0.1.0)
@@ -107,7 +95,6 @@ GEM
     test-unit (3.3.7)
       power_assert
     time (0.1.0)
-      date
     timeout (0.1.1)
     tmpdir (0.1.2)
       fileutils
@@ -131,7 +118,7 @@ DEPENDENCIES
   benchmark (= 0.1.1)
   bigdecimal (= 3.0.0)
   bundler (= 2.2.22)
-  cgi (= 0.2.0)
+  cgi (= 0.3.1)
   csv (= 3.1.9)
   date (= 3.1.0)
   dbm (= 1.1.0)
